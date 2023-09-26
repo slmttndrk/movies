@@ -1,5 +1,6 @@
 package dev.sdk.movies;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
@@ -9,6 +10,7 @@ import java.util.List;
 
 @Document(collection = "movies")
 @Data
+@AllArgsConstructor
 public class Movie {
     @Id
     private ObjectId id;
