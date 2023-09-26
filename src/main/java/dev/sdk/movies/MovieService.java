@@ -6,6 +6,7 @@ import java.util.List;
 
 @Service
 public class MovieService {
+    private MovieRepository movieRepository;
     public List<Movie> allMovies() {
 
     }
