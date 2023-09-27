@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/movies")
@@ -22,7 +23,7 @@ public class MovieController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Movie> getSingleMovie(@PathVariable ObjectId id) {
-        return new ResponseEntity<Movie>
+    public ResponseEntity<Optional<Movie>> getSingleMovie(@PathVariable ObjectId id) {
+
     }
 }
