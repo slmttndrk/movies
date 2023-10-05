@@ -5,7 +5,9 @@ import { Paper } from '@mui/material';
 const Hero = ({movies}) => {
     return (
         <div>
-
+            <Carousel>
+                
+            </Carousel>
         </div>
     )
 }
