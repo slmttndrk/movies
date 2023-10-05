@@ -1,6 +1,7 @@
 import './App.css';
 import api from './api/axiosConfig';
 import {useState, useEffect} from 'react';
+import Layout from './components/Layout';
 
 function App() {
 
