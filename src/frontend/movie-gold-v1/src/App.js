@@ -39,8 +39,9 @@ function App() {
       const singleMovie = response.data;
 
       setMovie(singleMovie);
-
-      setReviews(singleMovie.reviews);
+      
+      // setReviews(singleMovie.reviews);
+      setReviews(singleMovie.reviewIds);
 
     } 
     catch (error) 
