@@ -9,7 +9,7 @@ import React from "react";
 const Reviews = () => {
 
     const revText = useRef();
-    
+    let params = useParams();
 
     return (
         <div>
