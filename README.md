@@ -8,4 +8,4 @@ In this full stack development project:
 
 > Implemented loosely coupled architecture which can evolve in parallel and independently from one another.
 
-Many thanks to "freeCodeCamp.org" for helping me complete this application.
+Many thanks to "freeCodeCamp.org" for helping me complete this application. The app created following this tutorial: https://www.youtube.com/watch?v=5PdEmeopJVQ
