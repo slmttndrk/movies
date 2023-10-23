@@ -8,6 +8,9 @@ import React from "react";
 
 const Reviews = () => {
 
+    const revText = useRef();
+    
+
     return (
         <div>
 
